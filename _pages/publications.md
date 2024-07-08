@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+- **Detection of Cipher Types Using Machine Learning Techniques**.    
+Abhiroop Mukherjee, Arnab Sen, Krishnendu Bera, **_Rajdeep Ghosh_**, Swarnali Mondal, Sanjana Chakravarty, Subinoy Sikdar, Malay Kuley
+CIPR 2024 [[PDF]([https://ojs.aaai.org/index.php/ICWSM/article/view/31390](https://link.springer.com/chapter/10.1007/978-981-99-3734-9_25))]
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
