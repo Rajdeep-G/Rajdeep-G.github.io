@@ -2,15 +2,21 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "Education"
+    url: /education/
+  - title: "Experience"
+    url: /experience/ 
+  - title: "CV"
+    url: /files/Rajdeep-CV.pdf
+  - title: "Contact"
+    url: /contact/
 
   # - title: "Talks"
   #   url: /talks/    
-  - title: "Education"
-    url: /education/
+
   # - title: "Teaching"
   #   url: /teaching/ 
-  - title: "Experience"
-  url: /experience/ 
+ 
   
   # - title: "Portfolio"
   #   url: /portfolio/
@@ -18,15 +24,11 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    url: /files/Rajdeep-CV.pdf
-    
+  
   # - title: "Guide"
   #   url: /markdown/
 
-  - title: "Contact"
-    url: /contact/
-
+  
 
 
   
