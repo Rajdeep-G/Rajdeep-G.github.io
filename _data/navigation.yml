@@ -11,8 +11,8 @@ main:
     url: /publications/
   - title: "CV"
     url: /files/Rajdeep-CV.pdf
-  - title: "Contact"
-    url: /contact/
+  # - title: "Contact"
+  #   url: /contact/
 
   # - title: "Talks"
   #   url: /talks/    
