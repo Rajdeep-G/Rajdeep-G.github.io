@@ -29,14 +29,14 @@ permalink: /experience/
 - Created a fully responsive product display page for a product-selling [website](https://menscript.com/)
 - Redesigned the front end of the entire website using Vue.js and Bootstrap
 
+------
 
-
 <!-- blank line -->
 <!-- blank line -->
 <!-- blank line -->
-#
-#
-#
+<!-- # -->
+<!-- # -->
+<!-- # -->
 
 # Positions of Responsibility
 
