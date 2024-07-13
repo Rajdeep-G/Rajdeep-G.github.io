@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi, my name is Rajdeep and I am a 2nd year MTech student at IIT Kharagpur, in the Dept. of Computer Science & Engineering. I have completed my coursework in my first two semesters and am now working towards finding bugs with ML models with Prof. [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/). 
 
-I completed my B. Tech in Computer Science and Technology in 2023 from [IIEST SHIBPUR](https://www.iiests.ac.in/), Howrah, West Bengal, India. 
+Hi, I'm Rajdeep, a passionate and dedicated 2nd-year MTech student at IIT Kharagpur, specializing in Computer Science & Engineering. I have successfully completed my coursework and am currently engaged in cutting-edge research on bug detection using ML models under the guidance of P[Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/). 
 
-I play football and cricket and am a huge supporter of FC Barcelona. I am a die-hard fan of Messi. 
+
+I hold a B.Tech degree in Computer Science and Technology from [IIEST Shibpur]((https://www.iiests.ac.in/)), where I graduated in 2023. My academic journey has equipped me with a strong foundation in computer science principles and hands-on experience in various technologies.
+
+Beyond academics, I am an avid sports enthusiast. I love playing football and cricket and am a devoted supporter of FC Barcelona. As a die-hard fan of Messi, I draw inspiration from his relentless pursuit of excellence.
+
+Welcome to my portfolio website, where you can explore my projects, experiences, and interests. Feel free to reach out to me for collaborations, discussions, or just a friendly chat. I am always open to new opportunities and exciting challenges.
 
 
 Contact me at 

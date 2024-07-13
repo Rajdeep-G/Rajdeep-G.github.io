@@ -7,11 +7,11 @@ permalink: /education/
 ## MTech in Computer Science & Engineering (CSE) 
 
 ```markdown
-Indian Institute Of Technology, Kharagpur [2023- ongoing]
+Indian Institute of Technology, Kharagpur [2023- ongoing]
 CGPA (up to 2nd semester)- 9.55/10
 ```
 
-## BTech in Computer Science & Technology(CST) 
+## BTech in Computer Science & Technology (CST) 
  
 ```markdown
 Indian Institute Of Engineering Science & Technology, Shibpur [2019-23]

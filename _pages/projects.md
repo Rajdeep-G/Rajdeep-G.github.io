@@ -10,7 +10,7 @@ A server-client architecture in C to transfer files. Supports standard commands 
 
 ---
 
-## Shell
+## [Shell](https://github.com/Rajdeep-G/1stSem/tree/main/OS/shellProg)
 **Description:**  
 A shell designed in C with all basic functionalities, including:
 - `cd`
@@ -23,7 +23,7 @@ A shell designed in C with all basic functionalities, including:
 
 ---
 
-## Discord Bot: [cf-bot](https://github.com/Rajdeep-G/Cf-bot)
+## [Discord Bot: cf-bot](https://github.com/Rajdeep-G/Cf-bot)
 **Description:**  
 A bot built using discord.js that provides insights about happenings on Codeforces.
 
