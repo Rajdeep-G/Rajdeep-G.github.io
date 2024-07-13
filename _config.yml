@@ -25,7 +25,7 @@ author:
   name             : "Rajdeep Ghosh"
   pronouns         : # example: "she/her"  
   bio              : ""
-  location         : "Kharagpur, West Bengal"
+  # location         : "Kharagpur, West Bengal"
   employer         : "IIT Kharagpur"
   uri              : # URL
   email            : "ghoshrajdeep2000@gmail.com" 

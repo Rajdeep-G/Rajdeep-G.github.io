@@ -4,29 +4,31 @@ title: "Education"
 permalink: /education/
 ---
 
+## MTech in Computer Science & Engineering (CSE) 
 
-### Indian Institute Of Technology, Kharagpur
+```
+Indian Institute Of Technology, Kharagpur
+[2023- ongoing]
+CGPA (up to 2nd semester)- 9.55/10
+```
 
-**MTech CSE (2023-ongoing)**  
-**CGPA** (up to 2nd semester)- 9.55/10
+## BTech in Computer Science & Technology(CST) 
+ 
+```Indian Institute Of Engineering Science & Technology, Shibpur [2019-23]
+CGPA - 9.29/10
+```
 
-### Indian Institute Of Engineering Science & Technology, Shibpur
+## 12th Standard
+```
+DAV Model School, IIT-KGP [2019]
+CBSE (PCM+CS) - passed with 95.2 %
+```
 
-**BTech CST (2023)**  
-**CGPA** - 9.29/10
-
-
-### DAV Model School, IIT-KGP
-
-**12th Standard (2019)**  
-**CBSE  (PCM+CS)** - passed with **95.2 %** 
-
-
-### Vidyasagar Shishu Niketan, Midnapur
-
-**10th Standard (2017)**  
-**CISCE** - Passed with **95.8%**
-
+## 10th Standard
+```
+Vidyasagar Shishu Niketan, Midnapur (2017)
+CISCE - Passed with 95.8%
+```
 
 # Awards and Achievements
 
