@@ -6,8 +6,8 @@ permalink: /experience/
 
 
 
-## Research Intern — Intern
-**Prof: SS Pranesh, TII, Abu Dhabi, UAE [Remote]**  May 2022 - July 2022 
+## Research Intern 
+**Prof: SS Pranesh, TII, Abu Dhabi, UAE [Remote]**  ***May 2022 - July 2022***
 
 - Studied working basics of fuzzer
 - Implemented AFL fuzzer
@@ -16,7 +16,7 @@ permalink: /experience/
 ---
 
 ## Summer Intern
-**Hollyface Overseas Recruitment & Placement Pvt. Ltd. [Remote]**  June 2020 - August 2020
+**Hollyface Overseas Recruitment & Placement Pvt. Ltd. [Remote]**  ***June 2020 - August 2020***
 
 - Created a brand [new website](https://hollyface.com/) for the company
 - Managed databases
@@ -24,19 +24,13 @@ permalink: /experience/
 
 ---
 ## Frontend Web Developer — Freelance
-**Menscript, Belgium [Remote]**  September 2020 - February 2021
+**Menscript, Belgium [Remote]**  ***September 2020 - February 2021***
 
 - Created a fully responsive product display page for a product-selling [website](https://menscript.com/)
 - Redesigned the front end of the entire website using Vue.js and Bootstrap
 
 ------
 
-<!-- blank line -->
-<!-- blank line -->
-<!-- blank line -->
-<!-- # -->
-<!-- # -->
-<!-- # -->
 
 # Positions of Responsibility
 
