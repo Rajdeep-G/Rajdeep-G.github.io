@@ -31,7 +31,7 @@ permalink: /education/
 # Awards and Achievements
 
 - **Gate CSE (2023)** - [AIR 156](https://drive.google.com/file/d/1uHAMoFyOYcbE8NzS1D9dwD9nZgzxKKlK/view?usp=drive_link){:target="_blank"}
-- **Jee Mains (2019)** - [AIR 9967]()
+- **Jee Mains (2019)** - [AIR 9967]
 - **Wbjee (2019)** - AIR 237
 - **[JBNSTS Junior Scholar for 2017-18 session](https://drive.google.com/file/d/1b8An-hyBRE_MPox0lV5uVKitJtZh0bPp/view?usp=drive_link){:target="_blank"}**
 
