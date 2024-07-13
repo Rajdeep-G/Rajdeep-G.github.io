@@ -33,6 +33,6 @@ permalink: /education/
 - **Gate CSE (2023)** - [AIR 156](https://github.com/Rajdeep-G/Rajdeep-G.github.io/blob/master/files/Rajdeep-gate.pdf){:target="_blank"}
 - **Jee Mains (2019)** - AIR 8596
 - **Wbjee (2019)** - AIR 205
-- **[JBNSTS Junior Scholar for 2017-18 session](https://github.com/Rajdeep-G/Rajdeep-G.github.io/blob/master/files/Rajdeep-jbnsts.pdf){:target="_blank"}**
+- **[JBNSTS Junior Scholar for 2017-18 session](https://drive.google.com/file/d/1b8An-hyBRE_MPox0lV5uVKitJtZh0bPp/view?usp=drive_link){:target="_blank"}**
 
 
