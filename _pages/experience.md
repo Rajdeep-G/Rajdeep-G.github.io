@@ -30,3 +30,14 @@ permalink: /experience/
 - Redesigned the front end of the entire website using Vue.js and Bootstrap
 
 
+# Positions of Responsibility
+
+## Techning Assistant (during Mtech)
+
+Computing Lab (CS9201)  Autumn 2024 under Prof. Niloy Ganguly & Mainack Mondal
+
+Mentored a batch of 80 students along with my 6 other co Teaching Assistants.
+
+Provided Tutorials and Practice Questions to them as well as weekly sessions for their doubts.
+
+Evaluated their Assignments and Tests. 
