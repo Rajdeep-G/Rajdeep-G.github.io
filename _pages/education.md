@@ -1,8 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
+title: "Education"
+permalink: /education/
 ---
 
 - **Detection of Cipher Types Using Machine Learning Techniques**.    
