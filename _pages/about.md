@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hi, I'm Rajdeep, a passionate and dedicated 2nd-year MTech student at IIT Kharagpur, specializing in Computer Science & Engineering. I have successfully completed my coursework and am currently engaged in cutting-edge research on bug detection using ML models under the guidance of P[Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/). 
+Hi, I'm Rajdeep, a passionate and dedicated 2nd-year MTech student at IIT Kharagpur, specializing in Computer Science & Engineering. I have successfully completed my coursework and am currently engaged in cutting-edge research on bug detection using ML models under the guidance of Prof. [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/). 
 
 
 I hold a B.Tech degree in Computer Science and Technology from [IIEST Shibpur]((https://www.iiests.ac.in/)), where I graduated in 2023. My academic journey has equipped me with a strong foundation in computer science principles and hands-on experience in various technologies.
