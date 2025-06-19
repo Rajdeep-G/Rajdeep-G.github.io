@@ -35,8 +35,17 @@ permalink: /experience/
 # Positions of Responsibility
 
 ## Techning Assistant (during Mtech)
-Computing Lab (CS9201)  Autumn 2024 under Prof. Niloy Ganguly & Mainack Mondal
+Computing Lab (CS9201)  Autumn 2024 under [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) & [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/)
 
 - Mentored a batch of 80 students along with my 6 other co Teaching Assistants.
+- Major topics: Data Structures, Algorithms, Linear Programming, OS Basics - System Calls, Semaphores, Processes and Threads
+- Provided Tutorials and Practice Questions to them as well as weekly sessions for their doubts.
+- Evaluated their Assignments and Tests.
+
+
+Design Lab (CS69202)  Spring 2024 under [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) & [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/)
+
+- Mentored a batch of 80 students along with my 6 other co Teaching Assistants.
+- Major topics: Machine Learning, Deep Learning, SQL, NoSQL and Lex/Yacc.
 - Provided Tutorials and Practice Questions to them as well as weekly sessions for their doubts.
 - Evaluated their Assignments and Tests. 
