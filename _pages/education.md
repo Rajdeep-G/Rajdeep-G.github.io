@@ -4,11 +4,21 @@ title: "Education"
 permalink: /education/
 ---
 
+## PhD (CSE) [Persuing]
+
+```markdown
+Indian Institute of Technology, Kharagpur [2025-onwards]
+Broad domain - Developer-centric Security
+```
+
 ## MTech in Computer Science & Engineering (CSE) 
 
 ```markdown
-Indian Institute of Technology, Kharagpur [2023- ongoing]
-CGPA (up to 2nd semester)- 9.55/10
+Indian Institute of Technology, Kharagpur [2023-25]
+CGPA - 9.76/10
+Departmental Rank: 3
+Thesis Title: Measuring vulnerabilities in NPM packages
+
 ```
 
 ## BTech in Computer Science & Technology (CST) 
@@ -16,6 +26,7 @@ CGPA (up to 2nd semester)- 9.55/10
 ```markdown
 Indian Institute Of Engineering Science & Technology, Shibpur [2019-23]
 CGPA - 9.29/10
+Thesis Title: Detection of Cipher Types Using Machine Learning Techniques
 ```
 
 ## 12th Standard
