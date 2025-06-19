@@ -18,7 +18,6 @@ Indian Institute of Technology, Kharagpur [2023-25]
 CGPA - 9.76/10
 Departmental Rank: 3
 Thesis Title: Measuring vulnerabilities in NPM packages
-
 ```
 
 ## BTech in Computer Science & Technology (CST) 
