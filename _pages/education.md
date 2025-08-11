@@ -44,6 +44,7 @@ CISCE - Passed with 95.8%
 
 # Awards and Achievements
 
+- **Google Research Travel Grant** - Received grant of $2750 for attending USENIX Security'25 (Seattle, WA)
 - **Gate CSE (2023)** - [AIR 156](https://drive.google.com/file/d/1uHAMoFyOYcbE8NzS1D9dwD9nZgzxKKlK/view?usp=drive_link){:target="_blank"}
 - **Jee Mains (2019)** - AIR 9967
 - **Wbjee (2019)** - AIR 237
