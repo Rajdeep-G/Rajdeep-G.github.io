@@ -22,7 +22,7 @@ Welcome to my portfolio website, where you can explore my projects, experiences,
 
 Contact me at 
 ======
-Mtech Lab, 
+GRL Lab, 
 Department of Computer Science and Engineering,
 2nd Floor, Takshashila, 
 IIT Kharagpur, Kharagpur, West Bengal - 721302
