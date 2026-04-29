@@ -34,18 +34,20 @@ permalink: /experience/
 
 # Positions of Responsibility
 
+
+
+## Techning Assistant (during PhD)
+Design Lab (CS69202)  Spring 2025 under [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) & [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/)
+
+Mentored and taught a batch of 90 students, alongside seven co-TAs, on Networking-based Systems, Web Scraping, Machine Learning, Deep Learning, SQL, and NoSQL through coding tutorials, hands-on guidance, and system-level projects, while also evaluating assignments and tests.
+
+
 ## Techning Assistant (during Mtech)
 Computing Lab (CS9201)  Autumn 2024 under [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) & [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/)
 
-- Mentored a batch of 80 students along with my 6 other co Teaching Assistants.
-- Major topics: Data Structures, Algorithms, Linear Programming, OS Basics - System Calls, Semaphores, Processes and Threads
-- Provided Tutorials and Practice Questions to them as well as weekly sessions for their doubts.
-- Evaluated their Assignments and Tests.
+Mentored a batch of 80 students, alongside six co-TAs, on Data Structures, Algorithms, Linear Programming, and OS concepts including System Calls, Semaphores, Processes, and Threads through tutorials, doubt sessions, and practice materials, while also evaluating assignments and tests.
 
 
 Design Lab (CS69202)  Spring 2024 under [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) & [Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/)
 
-- Mentored a batch of 80 students along with my 6 other co Teaching Assistants.
-- Major topics: Machine Learning, Deep Learning, SQL, NoSQL and Lex/Yacc.
-- Provided Tutorials and Practice Questions to them as well as weekly sessions for their doubts.
-- Evaluated their Assignments and Tests. 
+- Mentored a batch of 80 students, alongside six co-TAs, on Machine Learning, Deep Learning, SQL, NoSQL, and Lex/Yacc through tutorials, doubt sessions, and practice materials, while also evaluating assignments and tests.
