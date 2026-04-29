@@ -9,7 +9,7 @@ permalink: /education/
 ```markdown
 Department of Computer Science and Engineering
 Indian Institute of Technology, Kharagpur [2025-onwards]
-Supervisor - [Prof Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/){:target="_blank"}
+Supervisor - Prof Mainack Mondal
 Broad domain - Developer-centric Security
 ```
 
