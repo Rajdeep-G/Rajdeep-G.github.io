@@ -9,6 +9,7 @@ permalink: /education/
 ```markdown
 Indian Institute of Technology, Kharagpur [2025-onwards]
 Broad domain - Developer-centric Security
+Supervisor - Prof Mainack Mondal
 ```
 
 ## MTech in Computer Science & Engineering (CSE) 
