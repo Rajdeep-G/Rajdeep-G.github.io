@@ -44,11 +44,12 @@ CISCE - Passed with 95.8%
 ```
 
 # Awards and Achievements
-
+- Invited to present lightning talk at _ACM India ARCS 2026_ (IIT Hyderabad)
+- Invited to present poster at Graduate Forum of _IndoML 2025_ (BITS Hyderabad)
 - **Google Research Travel Grant** - Received grant of $2750 for attending USENIX Security'25 (Seattle, WA)
 - **Gate CSE (2023)** - [AIR 156](https://drive.google.com/file/d/1uHAMoFyOYcbE8NzS1D9dwD9nZgzxKKlK/view?usp=drive_link){:target="_blank"}
 - **Jee Mains (2019)** - AIR 9967
-- **Wbjee (2019)** - AIR 237
+- **WBJEE (2019)** - AIR 237
 - **[JBNSTS Junior Scholar for 2017-18 session](https://drive.google.com/file/d/1b8An-hyBRE_MPox0lV5uVKitJtZh0bPp/view?usp=drive_link){:target="_blank"}**
 
 
