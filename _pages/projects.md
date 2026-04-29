@@ -6,15 +6,17 @@ permalink: /projects/
 
 
 ## Understanding security issue reporting and resolution in NPM packages (IITKGP: 2024 - Present)
-**Description:** We conducted a large-scale analysis of GitHub issues in the npm ecosystem using automated techniques to
-understand how security-related concerns are reported and addressed. Going beyond explicitly tagged security
-issues, our ML model identifies a large number of overlooked yet relevant issues and discussions that lack proper
-classification. We found that bots are often ineffective in assisting with these concerns, and developers tend to
-prioritize issues with known fixes while ignoring those without clear remedies. Many user-reported security issues
-are closed without justification or left unaddressed. Currently, we are working on developing smarter tools to
-help developers better identify, prioritize, and resolve such unresolved security issues in open-source ecosystems.
+**Description:** Conducted a large-scale study of security issue reporting and resolution in open-source ecosystems by analyzing
+GitHub issues from npm packages. Built ML models to detect security-related issues beyond explicitly labeled
+reports and identified gaps in issue classification and resolution. Ongoing work focuses on developing assistance
+methods for developers to help developers resolve security issues more effectively.
 
+## ADA: Adaptive Data Assistant (2025 - Present)
+**Description:** User-centric privacy analysis system for Google My Activity logs, detecting sensitive data exposure without any
+data leaving the system, evaluated through a user study and interactive visualization framework.
 
+## Kernel Lock-In and Supply Chain Security in SOHO Devices (2025-26)
+**Description:** Conducted large-scale security analysis of 306 SOHO devices across 900+ firmware versions, uncovering kernel vulnerabilities and tracing their propagation through the hardware supply chain. Identified kernel lock-in as a systemic security issue and evaluated mitigation potential through regulatory, community, and vendor-level interventions.
 
 ## Measuring vulnerabilities in NPM packages (MTech Project at IITKGP: 2024-25)
 **Description:** Designed a comprehensive framework to automatically detect and analyze security vulnerabilities in NPM pack-
