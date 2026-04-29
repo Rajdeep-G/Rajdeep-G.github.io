@@ -7,9 +7,10 @@ permalink: /education/
 ## PhD (CSE) [Persuing]
 
 ```markdown
+Department of Computer Science and Engineering
 Indian Institute of Technology, Kharagpur [2025-onwards]
+Supervisor - [Prof Mainack Mondal](https://cse.iitkgp.ac.in/~mainack/){:target="_blank"}
 Broad domain - Developer-centric Security
-Supervisor - Prof Mainack Mondal
 ```
 
 ## MTech in Computer Science & Engineering (CSE) 
