@@ -11,11 +11,11 @@ GitHub issues from npm packages. Built ML models to detect security-related issu
 reports and identified gaps in issue classification and resolution. Ongoing work focuses on developing assistance
 methods for developers to help developers resolve security issues more effectively.
 
-## ADA: Adaptive Data Assistant (2025 - Present)
+## ADA: Adaptive Data Assistant (IITKGP: 2025 - Present)
 **Description:** User-centric privacy analysis system for Google My Activity logs, detecting sensitive data exposure without any
 data leaving the system, evaluated through a user study and interactive visualization framework.
 
-## Kernel Lock-In and Supply Chain Security in SOHO Devices (2025-26)
+## Kernel Lock-In and Supply Chain Security in SOHO Devices (IITKGP: 2025-26)
 **Description:** Conducted large-scale security analysis of 306 SOHO devices across 900+ firmware versions, uncovering kernel vulnerabilities and tracing their propagation through the hardware supply chain. Identified kernel lock-in as a systemic security issue and evaluated mitigation potential through regulatory, community, and vendor-level interventions.
 
 ## Measuring vulnerabilities in NPM packages (MTech Project at IITKGP: 2024-25)
