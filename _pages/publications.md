@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+- **[To appear] Anchors that Don’t Lift: Understanding Supply Chain Driven Kernel Lock-In and GovernanceMediated Mitigation Strategies in SOHO Devices.**.    
+Ritwik Badola, **_Rajdeep Ghosh_**, Ashita Gupta, Chester Rebeiro, Mainack Mondal, 
+USENIX Security 2026 [[PDF](https://www.usenix.org/conference/usenixsecurity26)]  [[arXiv]()]   [[Dataset](https://zenodo.org/records/20433799)]
+
 - **“I wasn’t sure if this is indeed a security risk”: Data-driven Understanding of Security Issue Reporting in GitHub Repositories of Open Source npm Packagess**.    
 **_Rajdeep Ghosh_**, Shiladitya De, Mainack Mondal, 
 USENIX Security 2025 [[PDF](https://www.usenix.org/conference/usenixsecurity25/presentation/ghosh)]  [[arXiv](https://arxiv.org/abs/2506.07728)]   [[Dataset](https://zenodo.org/records/15614029)]
