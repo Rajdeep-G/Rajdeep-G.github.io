@@ -23,7 +23,7 @@ export const profile = {
   socials: {
     scholar: 'https://scholar.google.co.in/citations?user=uYNvlXoAAAAJ&hl=en',
     github: 'https://github.com/Rajdeep-G',
-    linkedin: 'https://www.linkedin.com/in/rajdeep-ghosh2000rg',
+    linkedin: 'https://www.linkedin.com/in/ghoshrajdeep2000',
     x: 'https://x.com/Rajdeep57931085',
   },
 }
@@ -285,8 +285,8 @@ export const publications = [
       'Subinoy Sikdar',
       'Malay Kuley',
     ],
-    venue: 'CIPR 2024',
-    year: 2024,
+    venue: 'CIPR 2023',
+    year: 2023,
     links: [{ label: 'PDF', url: 'https://link.springer.com/chapter/10.1007/978-981-99-3734-9_25' }],
   },
 ]
