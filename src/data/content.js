@@ -53,6 +53,7 @@ export const education = [
     period: '2023 – 2025',
     score: 'CGPA 9.76 / 10',
     badge: 'Dept. Rank 3',
+    images: ['/images/convo_m_1.jpg', '/images/convo_m_2.jpg'],
     details: ['Thesis: Measuring vulnerabilities in NPM packages'],
   },
   {
@@ -60,6 +61,7 @@ export const education = [
     school: 'Indian Institute of Engineering Science & Technology, Shibpur',
     period: '2019 – 2023',
     score: 'CGPA 9.29 / 10',
+    images: ['/images/convo_b_1.jpg', '/images/convo_b_2.jpg','/images/convo_b_3.jpg','/images/convo_b_4.jpg'],
     details: ['Thesis: Detection of Cipher Types Using Machine Learning Techniques'],
   },
   {
@@ -77,9 +79,10 @@ export const education = [
 ]
 
 export const awards = [
-  { title: 'Lightning talk, ACM India ARCS 2026', note: 'Invited speaker, IIT Hyderabad', kind: 'talk' },
-  { title: 'Graduate Forum poster, IndoML 2025', note: 'Invited presenter, BITS Hyderabad', kind: 'talk' },
-  { title: 'Google Research Travel Grant', note: '$2,750 to attend USENIX Security 2025, Seattle', kind: 'grant' },
+  { title: 'Poster presentation', note: 'Research Scholar Day, Dept of CSE, IITKGP', kind: 'talk', image: '/images/rsday26.jpg' },
+  { title: 'Lightning talk, ACM India ARCS 2026', note: 'Invited speaker, IIT Hyderabad', kind: 'talk', image: '/images/arcs26.jpg' },
+  { title: 'Graduate Forum poster, IndoML 2025', note: 'Invited presenter, BITS Hyderabad', kind: 'talk', image: '/images/indoml25.jpg' },
+  { title: 'Google Research Travel Grant', note: 'Received $2,750 to attend USENIX Security 2025, Seattle & present my paper', kind: 'grant', image: '/images/usenix25.jpg' },
   {
     title: 'GATE CS 2023: AIR 156',
     note: 'Score 787',
