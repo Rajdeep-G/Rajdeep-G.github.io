@@ -250,7 +250,7 @@ export const publications = [
     authors: ['Ritwik Badola', 'Rajdeep Ghosh', 'Ashita Gupta', 'Chester Rebeiro', 'Mainack Mondal'],
     venue: 'USENIX Security 2026',
     year: 2026,
-    // tier: 'Top-tier security venue',
+    tier: 'CORE A*',
     // TODO: replace with the paper's USENIX presentation page and add an arXiv link once available.
     links: [
       { label: 'PDF', url: 'https://www.usenix.org/conference/usenixsecurity26/presentation/badola' },
@@ -265,7 +265,7 @@ export const publications = [
     authors: ['Rajdeep Ghosh', 'Shiladitya De', 'Mainack Mondal'],
     venue: 'USENIX Security 2025',
     year: 2025,
-    // tier: 'Top-tier security venue',
+    tier: 'CORE A*',
     links: [
       { label: 'PDF', url: 'https://www.usenix.org/conference/usenixsecurity25/presentation/ghosh' },
       { label: 'arXiv', url: 'https://arxiv.org/abs/2506.07728' },
