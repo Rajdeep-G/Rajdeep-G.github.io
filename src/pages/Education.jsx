@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import { GraduationCap, Award, ExternalLink, Trophy, Mic, BadgeDollarSign } from 'lucide-react'
 import Page, { Reveal, SectionTitle, Card } from '../components/Page.jsx'
 import { education, awards } from '../data/content.js'
 import Lightbox from '../components/Lightbox.jsx'
 
-const awardIcon = { talk: Mic, grant: BadgeDollarSign, rank: Trophy }
+import { GraduationCap, Award, ExternalLink, Trophy, Mic, BadgeDollarSign, Users, Presentation } from 'lucide-react'
+
+const awardIcon = { talk: Mic, poster: Presentation, grant: BadgeDollarSign, rank: Trophy, service: Users }
+
 
 export default function Education() {
   // Photos open in the lightbox: { images, index, caption }, or null when closed.

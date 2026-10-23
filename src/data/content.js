@@ -8,13 +8,13 @@ export const profile = {
   cv: '/files/Rajdeep_Ghosh_CV.pdf',
   emails: ['ghoshrajdeep2000@gmail.com', 'ghoshrajdeep200025@kgpian.iitkgp.ac.in'],
   interests: [
-  'Usable Security',
-  'Developer-centric Security',
-  'Open-Source Supply Chains',
-  'Location Privacy Norms',
-  'SOHO & Firmware Security',
-  'Software Vulnerabilities',
-],
+    'Usable Security',
+    'Developer-centric Security',
+    'Open-Source Supply Chains',
+    'Location Privacy Norms',
+    'SOHO & Firmware Security',
+    'Software Vulnerabilities',
+  ],
   address: [
     'Room 204, 1st Floor',
     'Department of Computer Science and Engineering',
@@ -61,7 +61,7 @@ export const education = [
     school: 'Indian Institute of Engineering Science & Technology, Shibpur',
     period: '2019 – 2023',
     score: 'CGPA 9.29 / 10',
-    images: ['/images/convo_b_1.jpg', '/images/convo_b_2.jpg','/images/convo_b_3.jpg','/images/convo_b_4.jpg'],
+    images: ['/images/convo_b_1.jpg', '/images/convo_b_2.jpg', '/images/convo_b_3.jpg', '/images/convo_b_4.jpg'],
     details: ['Thesis: Detection of Cipher Types Using Machine Learning Techniques'],
   },
   {
@@ -79,9 +79,10 @@ export const education = [
 ]
 
 export const awards = [
-  { title: 'Poster presentation', note: 'Research Scholar Day, Dept of CSE, IITKGP', kind: 'talk', image: '/images/rsday26.jpg' },
+  { title: 'Organizing Committee, ACM ASIACCS 2026', note: 'Part of the team organizing ACM AsiaCCS 2026, hosted at Bangalore, INDIA', kind: 'service', image: '/images/asiaccs26.jpg' },
+  { title: 'Poster presentation', note: 'Research Scholar Day, Dept of CSE, IITKGP', kind: 'poster', image: '/images/rsday26.jpg' },
   { title: 'Lightning talk, ACM India ARCS 2026', note: 'Invited speaker, IIT Hyderabad', kind: 'talk', image: '/images/arcs26.jpg' },
-  { title: 'Graduate Forum poster, IndoML 2025', note: 'Invited presenter, BITS Hyderabad', kind: 'talk', image: '/images/indoml25.jpg' },
+  { title: 'Graduate Forum poster, IndoML 2025', note: 'Invited presenter, BITS Hyderabad', kind: 'poster', image: '/images/indoml25.jpg' },
   { title: 'Google Research Travel Grant', note: 'Received $2,750 to attend USENIX Security 2025, Seattle & present my paper', kind: 'grant', image: '/images/usenix25.jpg' },
   {
     title: 'GATE CS 2023: AIR 156',
@@ -154,7 +155,7 @@ export const teaching = [
     role: 'Teaching Assistant',
     people: [niloy, mainack],
     text: 'Mentored 80 students with six co-TAs on data structures, algorithms, linear programming and OS concepts (system calls, semaphores, processes, threads); evaluated assignments and tests.',
-  },{
+  }, {
     title: 'AI-Native Software Engineering',
     period: ['August - September 2026'],
     role: 'Teaching Assistant',
