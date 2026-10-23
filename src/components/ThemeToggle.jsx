@@ -3,7 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Moon, Sun } from 'lucide-react'
 
 export default function ThemeToggle() {
-  const [dark, setDark] = useState(() => document.documentElement.classList.contains('dark'))
+  const [dark, setDark] = useState(
+    () => typeof document !== 'undefined' && document.documentElement.classList.contains('dark'),
+  )
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark)

@@ -9,14 +9,8 @@ import Experience from './pages/Experience.jsx'
 import Projects from './pages/Projects.jsx'
 import Publications from './pages/Publications.jsx'
 import NotFound from './pages/NotFound.jsx'
+import { routes, notFound } from './seo.js'
 
-const titles = {
-  '/': 'Rajdeep Ghosh · Usable Security Researcher',
-  '/education': 'Education · Rajdeep Ghosh',
-  '/experience': 'Experience · Rajdeep Ghosh',
-  '/projects': 'Projects · Rajdeep Ghosh',
-  '/publications': 'Publications · Rajdeep Ghosh',
-}
 
 export default function App() {
   const location = useLocation()
@@ -24,7 +18,7 @@ export default function App() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = titles[path] ?? 'Rajdeep Ghosh'
+    document.title = (routes[path === '/about' ? '/' : path] ?? notFound).title
   }, [path])
 
   return (
