@@ -1,24 +1,23 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Moon, Sun } from 'lucide-react'
+import { setTheme } from '../lib/events.js'
 
 export default function ThemeToggle() {
   const [dark, setDark] = useState(
     () => typeof document !== 'undefined' && document.documentElement.classList.contains('dark'),
   )
 
+  // Stay in sync when the palette or terminal changes the theme.
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', dark)
-    try {
-      localStorage.setItem('theme', dark ? 'dark' : 'light')
-    } catch {
-      // Storage can be unavailable (private mode); the toggle still works for this visit.
-    }
-  }, [dark])
+    const sync = () => setDark(document.documentElement.classList.contains('dark'))
+    window.addEventListener('themechange', sync)
+    return () => window.removeEventListener('themechange', sync)
+  }, [])
 
   return (
     <button
-      onClick={() => setDark((d) => !d)}
+      onClick={() => setTheme('toggle')}
       aria-label={dark ? 'Switch to light theme' : 'Switch to dark theme'}
       className="grid h-9 w-9 place-items-center overflow-hidden rounded-full text-slate-600 transition hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
     >

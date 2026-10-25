@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, FileText } from 'lucide-react'
+import { Menu, X, FileText, Search, SquareTerminal } from 'lucide-react'
 import ThemeToggle from './ThemeToggle.jsx'
 import { profile } from '../data/content.js'
+import { openPalette, openTerminal } from '../lib/events.js'
 
 const links = [
   { to: '/', label: 'About' },
@@ -73,6 +74,29 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={openPalette}
+            aria-label="Search (Ctrl+K)"
+            className="hidden items-center gap-2 rounded-full border border-slate-200 bg-white/60 py-1.5 pl-3 pr-1.5 text-sm text-slate-500 transition hover:border-accent-300 hover:text-slate-900 lg:flex dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-400 dark:hover:text-white"
+          >
+            <Search size={14} /> Search
+            <kbd className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">⌘K</kbd>
+          </button>
+          <button
+            onClick={openPalette}
+            aria-label="Search"
+            className="grid h-9 w-9 place-items-center rounded-full text-slate-600 hover:bg-slate-100 lg:hidden dark:text-slate-300 dark:hover:bg-slate-800"
+          >
+            <Search size={18} />
+          </button>
+          <button
+            onClick={openTerminal}
+            aria-label="Open terminal mode"
+            title="Terminal mode ( ` )"
+            className="hidden h-9 w-9 place-items-center rounded-full text-slate-600 hover:bg-slate-100 sm:grid dark:text-slate-300 dark:hover:bg-slate-800"
+          >
+            <SquareTerminal size={18} />
+          </button>
           <a
             href={profile.cv}
             target="_blank"

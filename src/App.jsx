@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { AnimatePresence, MotionConfig } from 'framer-motion'
+import { AnimatePresence, MotionConfig, motion } from 'framer-motion'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import CommandPalette from './components/CommandPalette.jsx'
+import Terminal from './components/Terminal.jsx'
 import Home from './pages/Home.jsx'
 import Education from './pages/Education.jsx'
 import Experience from './pages/Experience.jsx'
@@ -32,6 +34,15 @@ export default function App() {
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-accent-600 focus:px-3 focus:py-2 focus:text-white">
           Skip to content
         </a>
+        {/* Thin gradient bar that sweeps across the top on every page change. */}
+        <motion.div
+          key={path}
+          aria-hidden
+          className="fixed inset-x-0 top-0 z-[60] h-0.5 origin-left bg-gradient-to-r from-accent-500 via-fuchsia-500 to-cyan-400"
+          initial={{ scaleX: 0, opacity: 1 }}
+          animate={{ scaleX: 1, opacity: 0 }}
+          transition={{ scaleX: { duration: 0.5, ease: 'easeOut' }, opacity: { duration: 0.3, delay: 0.45 } }}
+        />
         <Navbar />
         <main id="main" className="mx-auto w-full max-w-5xl flex-1 px-4 pb-24 pt-10 sm:px-6 sm:pt-16">
           <AnimatePresence mode="wait">
@@ -47,6 +58,8 @@ export default function App() {
           </AnimatePresence>
         </main>
         <Footer />
+        <CommandPalette />
+        <Terminal />
       </div>
     </MotionConfig>
   )

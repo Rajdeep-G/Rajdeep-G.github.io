@@ -1,19 +1,35 @@
 import { motion } from 'framer-motion'
 
+// Page enter/exit: fade + slide + soft blur, with the header lines staggering in.
+const pageVariants = {
+  initial: { opacity: 0, y: 16, filter: 'blur(6px)' },
+  enter: { opacity: 1, y: 0, filter: 'blur(0px)', transitionEnd: { filter: 'none' }, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1], staggerChildren: 0.06 } },
+  exit: { opacity: 0, y: -12, filter: 'blur(4px)', transition: { duration: 0.2, ease: 'easeIn' } },
+}
+const headerItem = {
+  initial: { opacity: 0, y: 10 },
+  enter: { opacity: 1, y: 0, transition: { duration: 0.4, ease: 'easeOut' } },
+}
+
 // Wraps each route with an enter/exit transition and a consistent page header.
 export default function Page({ eyebrow, title, intro, children }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -10 }}
-      transition={{ duration: 0.35, ease: 'easeOut' }}
-    >
+    <motion.div variants={pageVariants} initial="initial" animate="enter" exit="exit">
       {title && (
         <header className="mb-12">
-          {eyebrow && <p className="mb-2 font-display text-sm font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-300">{eyebrow}</p>}
-          <h1 className="font-display text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">{title}</h1>
-          {intro && <p className="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">{intro}</p>}
+          {eyebrow && (
+            <motion.p variants={headerItem} className="mb-2 font-display text-sm font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-300">
+              {eyebrow}
+            </motion.p>
+          )}
+          <motion.h1 variants={headerItem} className="font-display text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">
+            {title}
+          </motion.h1>
+          {intro && (
+            <motion.p variants={headerItem} className="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+              {intro}
+            </motion.p>
+          )}
         </header>
       )}
       {children}

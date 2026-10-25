@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import { profile, publications } from "../data/content.js";
 import Page, { Reveal, LinkButton } from "../components/Page.jsx";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Quote } from "lucide-react";
+import { scholarCiteUrl } from "../lib/events.js";
 
 function Authors({ list }) {
   return (
@@ -66,6 +67,15 @@ export default function Publications() {
                             {l.label} <ArrowUpRight size={13} />
                           </LinkButton>
                         ))}
+                        <a
+                          href={scholarCiteUrl(p)}
+                          target="_blank"
+                          rel="noreferrer"
+                          title="Opens Google Scholar. Click “Cite”, then “BibTeX”."
+                          className="inline-flex items-center gap-1 rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-accent-400 hover:text-accent-700 dark:border-slate-700 dark:text-slate-300 dark:hover:border-accent-400 dark:hover:text-accent-300"
+                        >
+                          <Quote size={12} /> BibTeX
+                        </a>
                       </div>
                     </article>
                   </Reveal>
