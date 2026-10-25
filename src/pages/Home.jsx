@@ -7,7 +7,7 @@ import SocialLinks from '../components/SocialLinks.jsx'
 import HeroGrid from '../components/HeroGrid.jsx'
 import { profile, advisor, news, publications } from '../data/content.js'
 
-const rotating = ['developer-centric security', 'open-source supply chains', 'usable security & privacy', 'software vulnerabilities', 'location-related privacy and security']
+const rotating = ['usable security & privacy', 'developer-centric security and privacy', 'open-source supply chains',  'location-related privacy and security']
 
 const stats = [
   { value: '2', label: 'USENIX Security papers', Icon: BookOpen },
