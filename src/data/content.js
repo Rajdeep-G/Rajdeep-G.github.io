@@ -5,6 +5,7 @@ export const profile = {
   role: 'Ph.D. Student · Computer Science & Engineering',
   affiliation: 'IIT Kharagpur',
   photo: '/images/profile.jpg',
+  mapUrl: 'https://maps.app.goo.gl/ah79RXMhGC6A5gwz9',
   cv: '/files/Rajdeep_Ghosh_CV.pdf',
   emails: ['ghoshrajdeep2000@gmail.com', 'ghoshrajdeep200025@kgpian.iitkgp.ac.in'],
   interests: [

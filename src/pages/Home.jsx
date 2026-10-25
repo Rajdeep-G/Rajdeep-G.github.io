@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowRight, MapPin, Newspaper, Sparkles, Mail, Trophy, BookOpen, GraduationCap } from 'lucide-react'
+import { motion, useReducedMotion } from 'framer-motion'
+import { ArrowRight, MapPin, Navigation, Newspaper, Sparkles, Mail, Trophy, BookOpen, GraduationCap } from 'lucide-react'
 import Page, { Reveal, SectionTitle, Card } from '../components/Page.jsx'
 import SocialLinks from '../components/SocialLinks.jsx'
+import HeroGrid from '../components/HeroGrid.jsx'
 import { profile, advisor, news, publications } from '../data/content.js'
 
 const rotating = ['developer-centric security', 'open-source supply chains', 'usable security & privacy', 'software vulnerabilities', 'location-related privacy and security']
@@ -14,26 +15,36 @@ const stats = [
   { value: '156', label: 'GATE CS 2023 All-India Rank', Icon: Trophy },
 ]
 
-function RotatingWord() {
+// Types each phrase, pauses, deletes it, then moves to the next.
+function TypingWord() {
+  const reduce = useReducedMotion()
   const [i, setI] = useState(0)
+  const [text, setText] = useState('')
+  const [deleting, setDeleting] = useState(false)
+
   useEffect(() => {
-    const id = setInterval(() => setI((n) => (n + 1) % rotating.length), 2600)
-    return () => clearInterval(id)
-  }, [])
+    if (reduce) return
+    const word = rotating[i]
+    let delay = deleting ? 35 : 70
+    if (!deleting && text === word) delay = 1800 // hold the full phrase
+    if (deleting && text === '') delay = 300
+    const id = setTimeout(() => {
+      if (!deleting && text === word) setDeleting(true)
+      else if (deleting && text === '') {
+        setDeleting(false)
+        setI((n) => (n + 1) % rotating.length)
+      } else setText(word.slice(0, text.length + (deleting ? -1 : 1)))
+    }, delay)
+    return () => clearTimeout(id)
+  }, [text, deleting, i, reduce])
+
   return (
-    <span className="relative inline-grid">
-      <AnimatePresence mode="wait">
-        <motion.span
-          key={rotating[i]}
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -12 }}
-          transition={{ duration: 0.3 }}
-          className="bg-gradient-to-r from-accent-600 to-fuchsia-500 bg-clip-text text-transparent dark:from-accent-300 dark:to-fuchsia-300"
-        >
-          {rotating[i]}
-        </motion.span>
-      </AnimatePresence>
+    <span>
+      <span className="sr-only">{rotating.join(', ')}</span>
+      <span aria-hidden className="bg-gradient-to-r from-accent-600 to-fuchsia-500 bg-clip-text text-transparent dark:from-accent-300 dark:to-fuchsia-300">
+        {reduce ? rotating[0] : text}
+      </span>
+      <span aria-hidden className="ml-0.5 inline-block h-[1.1em] w-[2px] translate-y-[0.15em] animate-pulse bg-accent-500 dark:bg-accent-300" />
     </span>
   )
 }
@@ -42,7 +53,8 @@ export default function Home() {
   return (
     <Page>
       {/* Hero */}
-      <section className="grid items-center gap-10 md:grid-cols-[1fr_auto]">
+      <section className="relative isolate grid items-center gap-10 md:grid-cols-[1fr_auto]">
+        <HeroGrid />
         <div>
           <motion.p
             initial={{ opacity: 0 }}
@@ -59,11 +71,12 @@ export default function Home() {
           <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-6xl dark:text-white">
             Hi, I’m Rajdeep.
           </h1>
-          <p className="mt-4 text-xl leading-relaxed text-slate-600 sm:text-2xl dark:text-slate-300">
-            Ph.D. student at IIT Kharagpur working on <RotatingWord />
+          {/* min-h keeps the layout from jumping as the phrase types and wraps */}
+          <p className="mt-4 min-h-[5.25em] text-xl leading-relaxed text-slate-600 sm:min-h-[3.5em] sm:text-2xl dark:text-slate-300">
+            Ph.D. student at IIT Kharagpur working on <TypingWord />
           </p>
           <p className="mt-5 flex items-center gap-1.5 text-sm text-slate-500 dark:text-slate-400">
-            <MapPin size={15} /> {profile.affiliation}, India
+            <MapPin size={15} /> Department of CSE, {profile.affiliation}, India
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-3">
             <Link
@@ -205,13 +218,27 @@ export default function Home() {
                 </div>
               </div>
               <address className="not-italic">
-                <p className="mb-2 flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wide text-accent-300">
-                  <MapPin size={15} /> Find me at
-                </p>
-                {profile.address.map((line) => (
-                  <p key={line} className="leading-relaxed">{line}</p>
-                ))}
-              </address>
+  <a
+    href={profile.mapUrl}
+    target="_blank"
+    rel="noreferrer"
+    className="mb-2 inline-flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wide text-accent-300 hover:text-white"
+  >
+    <MapPin size={15} /> Find me at
+  </a>
+  {profile.address.map((line) => (
+    <p key={line} className="leading-relaxed">{line}</p>
+  ))}
+  <a
+    href={profile.mapUrl}
+    target="_blank"
+    rel="noreferrer"
+    className="group mt-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-white transition hover:border-accent-300 hover:bg-white/10"
+  >
+    <Navigation size={15} className="text-accent-300 transition-transform group-hover:rotate-12" />
+    Open in Google Maps
+  </a>
+</address>
             </div>
           </div>
         </Reveal>
